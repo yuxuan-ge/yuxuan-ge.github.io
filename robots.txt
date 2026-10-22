@@ -1,0 +1,6 @@
+# Crawlers read robots.txt only at the root of the host.
+# A copy under /~ge005678/ does not control crawling on math.umn.edu.
+User-agent: *
+Allow: /
+
+Sitemap: https://math.umn.edu/~ge005678/sitemap.xml

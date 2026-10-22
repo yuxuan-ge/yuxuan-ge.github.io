@@ -1,0 +1,64 @@
+body {
+  font-family: LibreBaskerville, "Libre Baskerville", Georgia, serif;
+  max-width: 800px;
+  margin: 55px auto;
+  padding: 0 24px;
+  color: #222;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+a {
+  color: #174c83;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin-bottom: 24px;
+}
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+}
+
+.paper {
+  margin-bottom: 24px;
+}
+
+.paper-title {
+  font-weight: bold;
+}
+
+.link-list {
+  padding-left: 24px;
+}
+
+.link-list li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 32px auto;
+    padding: 0 20px;
+  }
+}

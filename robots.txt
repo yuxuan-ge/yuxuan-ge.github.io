@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://math.umn.edu/~ge005678/sitemap.xml
+Sitemap: https://yuxuan-ge.github.io/sitemap.xml
